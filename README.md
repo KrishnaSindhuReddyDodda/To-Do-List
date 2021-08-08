@@ -1,2 +1,1 @@
-# To-Do-List
-With HTML,CSS, Python,SQLite3
+A task list also called a to-do list. It's a list of tasks to be completed, such as chores or steps toward completing a project. It is a tool that which serves as an alternative to memory. Task lists are used in self-management, business management, project management, and software development. This project is designed with HTML,CSS(front-end), python in the back-end and by using SQLite3 database. In this we can add, delete and view all added lists.
