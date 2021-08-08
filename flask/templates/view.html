@@ -1,0 +1,34 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <link rel="stylesheet" href="../static/style1.css">
+    <title>List</title>  
+</head>  
+<body>  
+  <br>
+  <br><br><br>
+<center><h3>WORKS TO DO</h3></center>
+<div class="login"> 
+<table border=5>  
+    <thead>  
+        <td>ID</td>  
+        <td>Task</td>  
+        <td>Description</td>    
+    </thead>  
+      
+    {% for row in rows %}  
+      
+        <tr>  
+            <td>{{row["id"]}}</td>  
+            <td>{{row["task"]}}</td>  
+            <td>{{row["description"]}}</td>   
+        </tr>  
+      
+    {% endfor %}  
+</table>  
+<br><br>  
+  
+<a href="/">Go back to home page</a>  
+ </div> 
+</body>  
+</html>  
