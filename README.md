@@ -1,6 +1,6 @@
-A task list also called a to-do list. It's a list of tasks to be completed, such as chores or steps toward completing a project. It is a tool that which serves as an alternative to memory. Task lists are used in self-management, business management, project management, and software development. This project is designed with HTML,CSS(front-end), python in the back-end and by using SQLite3 database. In this we can add, delete and view all added lists.
-At last I deployed this application in Amazon EC2 through AWS S3 bucket. 
-The following are the steps to deploy the application in Amazon EC2.
+1) A task list also called a to-do list. It's a list of tasks to be completed, such as chores or steps toward completing a project. It is a tool that which serves as an alternative to memory. Task lists are used in self-management, business management, project management, and software development. This project is designed with HTML,CSS(front-end), python in the back-end and by using SQLite3 database. In this we can add, delete and view all added lists.
+2) At last I deployed this application in Amazon EC2 through AWS S3 bucket. 
+3) The following are the steps to deploy the application in Amazon EC2.
   1) Initially I created a zip file (to_do_list.zip), with all these application (html, css , python) files in it.
   2) Now in AWS management console, I created a bucket and uploaded this to_so_list.zip folder in it as an object.
   3) On the other hand, I created one EC2 instance and launched it. Once when our instance starts running, open AWS Command Line Interface.
